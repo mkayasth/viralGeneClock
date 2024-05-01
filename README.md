@@ -31,10 +31,10 @@ $HOME/prokka/bin/prokka --setupdb
 If you have pip installed for your Python3, follow these steps:
 
 ```shell
-python3.11 -m pip install biopython
-python3.11 -m pip install matplotlib
-python3.11 -m pip install flask
-python3.11 -m pip install flask-mail
+python3 -m pip install biopython
+python3 -m pip install matplotlib
+python3 -m pip install flask
+python3 -m pip install flask-mail
 ```
 
 <h3>Note: </h3>This tool executes scripts using the 'python3' command, so ensure Python 3 is installed on your system. Additionally, all required packages mentioned above must be installed for the Python3 environment that is invoked when you run 'python3' from the command line. <br> <br>
@@ -57,7 +57,7 @@ python3 app.py
 ```
 
 <br> 
-Alternatively, you can use the command line interface with main.py (app.py calls main.py using the subprocess library). <br>
+Alternatively, you can use the command line interface with main.py (app.py calls main.py using the subprocess library). <br> <br>
 
  ```shell
 python3 main.py <input_fasta_file> <reference strain>
