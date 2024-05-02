@@ -26,7 +26,7 @@ $HOME/prokka/bin/prokka --setupdb
 <h3>2) Muscle:</h3> For detailed Muscle installation instructions for your OS, visit this site: https://github.com/rcedgar/muscle/releases/tag/5.1.0  <br>
 <h4> Add Muscle to your PATH. </h4> <br>
 
-<h3>3) Python3:</h3>
+<h3>3) Python3 Dependencies:</h3>
 
 If you have pip installed for your Python3, follow these steps:
 
